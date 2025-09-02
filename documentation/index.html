@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="justify-content: center; align-items: center; display: flex;">Movie Recommender System</h1>
+    <h2>Types</h2>
+    <ul>
+        <li><p>Content-based</p></li>
+        <li><p>Collaborative Filtering</p></li>
+        <li><p>Hybrid</p></li>
+    </ul>
+    <div style=" padding: 50px; display: flex; gap: 20px; justify-content: center; border: 2px solid black; background-color: lightslategray; ">
+    <div style="width: 500px; background-color: lightgoldenrodyellow; padding: 10px; border-radius: 10px;">
+    <h3>Content Based</h3>
+    <p>It is mainly based on tags</p>
+    </div>
+    <div style="width: 500px; background-color: lightgoldenrodyellow; padding: 10px; border-radius: 10px;">
+    <h3>Collaborative-Filtering Based</h3>
+    <p>If there are two person A and B , and they watched a movie M1 and they both liked it and there is  movie M2 which they both hated , they in this certain point thir both interest is same , so now if there are M3 movie which is liked by the A , then it will surely liked by the B.That why it will also be showed to B.</p>
+    </div>
+    <div style="width: 500px; background-color: lightgoldenrodyellow; padding: 10px; border-radius: 10px;">
+    <h3>Hybrid</h3>
+    <p>It is the combined version of both Content-based and Collaborative-filtering</p>
+    </div>
+    </div>
+    <div>
+        <h2>Project Flow</h2>
+        <div style="padding: 15px; background-color: blanchedalmond; border-radius: 10px;">
+            <ul>
+                <li><p>Data Collection</p></li>
+                <li><p>Data Preprocessing - Arranging our data for simplicity</p></li>
+                <li><p>Model Creation - Using Machine Learning</p></li>
+                <li><p>Website - Building an website</p></li>
+                <li><p>Deploy</p></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2>Target: To build a website</h2>
+        <p>Where an user will input an user name and the model will find out some similar movies by that name</p>
+    </div>
+    <div>
+        <h3>So in our data frame there will be</h3>
+        <table border="1" style="border-collapse: collapse; width: 100%; text-align: center; margin-top: 20px;">
+            <tr>
+            <th>movie_id</th>
+            <th>title</th>
+            <th>tags</th>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p>For Higher Dimension the euclidean distance between two vectors is not reliable.That's why Cosine distance is the most efficient for it.</p>
+    </div>
+</body>
+</html>
