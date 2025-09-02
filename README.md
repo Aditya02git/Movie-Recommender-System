@@ -18,7 +18,7 @@ It suggests similar movies based on the one you select and displays their poster
 
 ## Demo Preview
 
-![Demo Screenshot](https://i.ibb.co/tscn58x/movie-recommender-demo.png)
+![Demo Screenshot](./demo.png)
 
 ---
 
